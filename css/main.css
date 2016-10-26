@@ -1,0 +1,46 @@
+html,body {
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: url("../images/bg.png") repeat-y left center;
+    width: 640px;
+    min-height: 100%;
+}
+.container .banner {
+    width: 612px;
+    margin-left: 14px;
+    height: 166px;
+    display: inline-block;
+    background: url("../images/banner.png") no-repeat;
+}
+.container .bg {
+    width: 612px;
+    margin-left: 14px;
+    height: 774px;
+    display: inline-block;
+    background: url("../images/bg1.png") no-repeat;
+
+
+}
+.container .bg .button {
+    width: 162px;
+    margin-left: 219px;
+    margin-top: 292px;
+    height: 162px;
+    display: inline-block;
+    background: url("../images/button.png") no-repeat;
+}
+
+.container .footer {
+    width: 640px;
+    height: 93px;
+    background: url("../images/footer.png") no-repeat;
+    position: fixed;
+    bottom:0;
+}
